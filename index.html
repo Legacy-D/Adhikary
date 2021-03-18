@@ -9,7 +9,47 @@
   <meta charset="UTF-8">
   <meta name="author" content="Dipankar Adhikary">
   <title>Dipankar Adhikary</title>
-</head>
+  <style>
+	*{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	h1{
+		margin-bottom: 15px;
+		text-align: center;
+		color: #a55a8a;
+	}
+	div#cont{
+		background-color: #00FFFF;
+		position: relative;
+		top: 50px;
+	}
+	p{
+		width: 50px;
+		height: 50px;
+		border: 1px solid black;
+		margin-bottom: 15px;
+	}
+	#p1{
+		background-color: #a52a2a;
+		position: relative;
+		top: 65px;
+		left: 65px;
+	}
+	#p2{
+		background-color: #deb887;
+	}
+	#p3{
+		background-color: #5f9ea0; 
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	#p4{
+		background-color: #ff7f50;
+	}
+</style></head>
 
 <body>
   <!-- 5. Best/proper way to declare the header for a page -->
@@ -52,6 +92,14 @@
       <p>I grew up in Kolkata, a very small village in Manik kole. During my childhood I enjoyed farming and swimming a lot with my father. Since I no longer live there I really miss those awesome days and the natural environment of my village.I played cricket with my chilhood friends.</p>
     </details>
   </section>
+  <h1>POSITIONING ELEMENTS</h1>
+	<div id="cont">
+		<p id="p1"></p>
+		<p id="p2"></p>
+		<p id="p3"></p>
+		<p id="p4"></p>
+	</div>
+
 
   <!-- 9. Best/proper way to create a footer that has an image, paragraph, and link. Be careful, that paragraph includes a special entity -->
   <footer>
